@@ -38,3 +38,40 @@ body {
 h1, p {
     margin: 0px;
 }
+.gap {
+    padding: 10px;
+}
+.Text1 {
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    padding: 6px;
+}
+.container1 {
+    background-color: rgb(17, 0, 58);
+    background: repeating-linear-gradient(135deg, rgb(67, 9, 121)35%, rgb(17, 0, 58));
+    padding: 12px;
+    display: flex;
+    gap: 6px;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 11, 109);
+    max-width: 340px;
+    height: 450px;
+}
+.Text2 {
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    padding: 6px;
+}
+.container2 {
+    background-color: rgb(17, 0, 58);
+    background: repeating-linear-gradient(45deg, rgb(67, 9, 121)35%, rgb(17, 0, 58));
+    padding: 12px;
+    display: flex;
+    gap: 6px;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 11, 109);
+    max-width: 340px;
+    height: 200px;
+}
