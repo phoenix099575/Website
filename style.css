@@ -5,9 +5,16 @@ body {
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
+    background: #020024;
+    background: repeating-linear-gradient(55deg, rgb(67, 9, 121)35%, rgb(17, 0, 58), rgb(0, 0, 0));
+    background-attachment: fixed;
+    min-height: 200vh;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .container {
     background-color: rgb(17, 0, 58);
+    background: repeating-linear-gradient(45deg, rgb(67, 9, 121)35%, rgb(17, 0, 58));
     padding: 12px;
 }
 .hero {
