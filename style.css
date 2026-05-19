@@ -95,6 +95,27 @@ h1, p {
     border: 4px solid rgb(0, 11, 109);
     width: 380px;
     height: 250px;
-    position: absolute; top: 218px; right: 50px;
-    
+    position: absolute; top: 218px; 
+    margin-left: 437px;
+    margin-right: auto;
+}
+.Text4 {
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    padding: 6px;
+}
+.container4 {
+    background-color: rgb(17, 0, 58);
+    background: repeating-linear-gradient(-45deg, rgb(67, 9, 121)35%, rgb(17, 0, 58));
+    padding: 12px;
+    display: flex;
+    gap: 6px;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 11, 109);
+    width: 380px;
+    height: 396px;
+    position: absolute; top: 524px; 
+    margin-left: 437px;
+    margin-right: auto;
 }
